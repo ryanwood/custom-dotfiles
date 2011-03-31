@@ -18,6 +18,9 @@ set softtabstop=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
+"
+" Expose tabs and trailing whitespace as the sins they are
+set list listchars=tab:\ \ ,trail:·
 
 set autoread     " automatically reload a file if it's changed outside vim
 
@@ -48,3 +51,19 @@ autocmd BufReadPost *
    \ if line("'\"") > 1 && line("'\"") <= line("$") |
    \ exe "normal! g`\"" |
    \ endif
+
+" make uses real tabs for makefiles
+au FileType make set noexpandtab
+
+" make python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
+au FileType python  set tabstop=4 textwidth=79
+
+" Drupal PHP files
+augroup module
+  autocmd BufRead,BufNewFile *.module set filetype=php
+  autocmd BufRead,BufNewFile *.install set filetype=php
+  autocmd BufRead,BufNewFile *.test set filetype=php
+augroup END
+
+" JSON filetype
+autocmd BufRead *.json set filetype=javascript

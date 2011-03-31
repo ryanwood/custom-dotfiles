@@ -6,6 +6,10 @@
 
 " ;w saves a buffer
 map <Leader>w :w!<CR>
+map <Leader>q :q<CR>
+
+" jj returns to command mode
+imap jj <ESC>
 
 " navigate among windows using ;[hjkl]
 map <Leader>h <C-W>h

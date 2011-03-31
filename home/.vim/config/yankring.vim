@@ -16,14 +16,6 @@ let g:yankring_share_between_instances = 1
 " don't save duplicates
 let g:yankring_ignore_duplicate = 1
 
-" use a separate vertical split window that auto closes and is 30 chars wide on
-" the right side
-let g:yankring_window_use_separate = 1
-let g:yankring_window_use_horiz = 0
-let g:yankring_window_auto_close = 1
-let g:yankring_window_width = 30
-let g:yankring_window_use_right = 1
-
 " pressing <space> will increase the size of the window by 15 columns
 let g:yankring_window_increment = 15
 

@@ -4,18 +4,8 @@
 "" settings, just 'global' ones.
 """"""""""""""""""""""""""""""""""""""""
 
-" fix arrow keys in console mode
-if has('gui_running')
-   " no need to mess with term
-else
-   set term=ansi
-endif
-
 " ;w saves a buffer
 map <Leader>w :w!<CR>
-
-" ;q closes a vim-window
-map <Leader>q :q!<CR>
 
 " navigate among windows using ;[hjkl]
 map <Leader>h <C-W>h

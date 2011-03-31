@@ -2,8 +2,7 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-" use the desert256 colorscheme (works better with console than zenburn)
-colorscheme desert256
+colorscheme ir_black
 
 set laststatus=2   " always display a status line
 set number         " show line numbers

@@ -1,4 +1,4 @@
-# Rick's config files
+# dotfiles for rickharris
 
 ## VIM\_CONFIG
 

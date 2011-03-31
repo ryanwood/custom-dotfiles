@@ -122,3 +122,15 @@
   path = home/.vim/bundle/csapprox
   url = https://github.com/vim-scripts/CSApprox.git
   ignore = dirty
+[submodule "home/.vim/bundle/css3"]
+	path = home/.vim/bundle/css3
+	url = https://github.com/hail2u/vim-css3-syntax.git
+[submodule "home/.vim/bundle/html5"]
+	path = home/.vim/bundle/html5
+	url = https://github.com/othree/html5.vim.git
+[submodule "home/.vim/bundle/javascript"]
+	path = home/.vim/bundle/javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "home/.vim/bundle/haml"]
+	path = home/.vim/bundle/haml
+	url = https://github.com/tpope/vim-haml.git

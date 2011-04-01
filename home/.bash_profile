@@ -7,7 +7,7 @@ export PATH=":/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Colors
 export CLICOLOR='true'
-export PROMPT_COMMAND='PS1="\[\033[1;36m\]\[\033[1;40m\]\h \[\033[1;37m\]\`if [[ `pwd|wc -c|tr -d " "` > 18 ]]; then echo "\\W"; else echo "\\W"; fi\` λ \[\033[0m\] "; echo -ne "\033]0;`hostname -s`:`pwd`\007"'
+export PROMPT_COMMAND='PS1="\[\033[1;36m\]\]\033[1;40m\]\h \[\033[1;37m\]\W λ \[\033[0m\] "'
 d=.dircolors
 test -r $d && eval "$(dircolors $d)"
 

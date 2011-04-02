@@ -24,3 +24,6 @@ set statusline+=%=                                            " right align
 set statusline+=%{fugitive#statusline()}                      " git status
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''} " rvm status
 set statusline+=(%l,%c%V)\ %<%P                               " offset
+
+" fold method
+set foldmethod = marker

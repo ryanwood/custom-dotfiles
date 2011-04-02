@@ -2,6 +2,10 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
+if &t_Co < 88
+  let g:CSApprox_loaded=1
+endif
+
 colorscheme ir_black
 
 set laststatus=2   " always display a status line

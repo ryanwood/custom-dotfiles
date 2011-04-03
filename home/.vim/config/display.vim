@@ -6,7 +6,7 @@ if &t_Co < 88
   let g:CSApprox_loaded=1
 endif
 
-colorscheme ir_black
+colorscheme cotingale
 
 set laststatus=2   " always display a status line
 set number         " show line numbers

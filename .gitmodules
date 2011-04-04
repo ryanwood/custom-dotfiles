@@ -142,3 +142,9 @@
 	path = home/.vim/bundle/ragtag
 	url = https://github.com/tpope/vim-ragtag.git
   ignore = dirty
+[submodule "home/.vim/bundle/jade"]
+	path = home/.vim/bundle/jade
+	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "home/.vim/bundle/stylus"]
+	path = home/.vim/bundle/stylus
+	url = https://github.com/wavded/vim-stylus.git

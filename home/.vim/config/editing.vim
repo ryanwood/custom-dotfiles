@@ -18,7 +18,10 @@ set softtabstop=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
-"
+
+" Window scroll padding
+set scrolloff=4
+
 " Expose tabs and trailing whitespace as the sins they are
 set list listchars=tab:\ \ ,trail:·
 

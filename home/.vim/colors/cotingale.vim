@@ -57,7 +57,7 @@ if version >= 700 " Vim 7.x specific colors
   hi TabLine            ctermfg=238         ctermbg=NONE        cterm=NONE
   hi TabLineFill        ctermfg=238         ctermbg=NONE        cterm=NONE
   hi TabLineSel         ctermfg=NONE        ctermbg=NONE        cterm=BOLD
-  hi MatchParen         ctermfg=NONE        ctermbg=NONE        cterm=BOLD
+  hi MatchParen         ctermfg=61          ctermbg=255         cterm=NONE
   hi Pmenu              ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi PmenuSel           ctermfg=black       ctermbg=yellow      cterm=NONE
   hi Search             ctermfg=NONE        ctermbg=NONE        cterm=underline

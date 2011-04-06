@@ -8,6 +8,9 @@ endif
 
 colorscheme cotingale
 
+" fold method
+set foldmethod=marker
+
 set laststatus=2   " always display a status line
 set number         " show line numbers
 set ruler          " display coordinates in status bar
@@ -25,5 +28,3 @@ set statusline+=%{fugitive#statusline()}                      " git status
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''} " rvm status
 set statusline+=(%l,%c%V)\ %<%P                               " offset
 
-" fold method
-set foldmethod=marker

@@ -4,15 +4,19 @@
 
 " only execute the contents of this file if the GUI is in use.
 if has("gui_running")
-   set transp=8
+  " Fullscreen takes up entire screen
+  set fuoptions=maxhorz,maxvert
 
-   "" gui options
-   " a - Autoselect
-   " c - Use console dialogs instead of popup dialogs for simple choices.
-   "
-   " more interesting, what is absent: no menu, no toolbar, no scrollbars.
-   set guioptions=ac
+  " Command-/ to toggle comments
+  map <D-/> <plug>NERDCommenterToggle<CR>
 
-   set lines=60
-   set columns=180
-endif
+  " Start without the toolbar
+  set guioptions-=T
+
+  " Default gui color scheme
+  color ir_black
+  set guifont=Consolas\ for\ BBEdit:h12
+
+  set lines=60
+  set columns=180
+ endif

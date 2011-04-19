@@ -2,11 +2,13 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-if &t_Co < 88
+" make csapprox stop whining in less capable VIMs
+if &t_Co < 88 || !has('gui')
   let g:CSApprox_loaded=1
+  let g:CSApprox_verbose_level=0
 endif
 
-colorscheme cotingale
+colorscheme ir_black
 
 " fold method
 set foldmethod=marker

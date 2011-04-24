@@ -13,10 +13,5 @@ if has("gui_running")
   " Start without the toolbar
   set guioptions-=T
 
-  " Default gui color scheme
-  color ir_black
-  set guifont=Consolas\ for\ BBEdit:h12
-
-  set lines=60
-  set columns=180
+  set guifont=Monaco:h11
  endif

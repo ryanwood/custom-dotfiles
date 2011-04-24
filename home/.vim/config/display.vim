@@ -9,6 +9,8 @@ if &t_Co < 88 || !has('gui')
 endif
 
 colorscheme ir_black
+set colorcolumn=+1
+set cursorline
 
 " fold method
 set foldmethod=marker
@@ -29,4 +31,3 @@ set statusline+=%=                                            " right align
 set statusline+=%{fugitive#statusline()}                      " git status
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''} " rvm status
 set statusline+=(%l,%c%V)\ %<%P                               " offset
-

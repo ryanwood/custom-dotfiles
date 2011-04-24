@@ -154,3 +154,6 @@
   path = home/.vim/bundle/tabular
   url = https://github.com/godlygeek/tabular.git
   ignore = dirty
+[submodule "home/.vim/bundle/slim"]
+	path = home/.vim/bundle/slim
+	url = https://github.com/bbommarito/vim-slim.git

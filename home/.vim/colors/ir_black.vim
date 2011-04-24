@@ -78,8 +78,8 @@ hi StatusLineNC     guifg=black       guibg=#202020     gui=NONE      ctermfg=bl
 
 hi Folded           guifg=#a0a8b0     guibg=#222222     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Title            guifg=#f6f3e8     guibg=NONE        gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-hi Visual           guifg=#005f87     guibg=#afdfff     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-hi VIsualNOS        guifg=#005f87     guibg=#afdfff     gui=none      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi Visual           guifg=#005f87     guibg=#afdfff     gui=NONE      ctermfg=white       ctermbg=darkgray    cterm=NONE
+hi VisualNOS        guifg=#005f87     guibg=#afdfff     gui=NONE      ctermfg=white       ctermbg=darkgray    cterm=NONE
 
 hi SpecialKey       guifg=#808080     guibg=#343434     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
@@ -95,9 +95,9 @@ hi WarningMsg       guifg=white       guibg=#FF6C60     gui=BOLD      ctermfg=wh
 hi ModeMsg          guifg=black       guibg=#C6C5FE     gui=BOLD      ctermfg=black       ctermbg=cyan        cterm=BOLD
 
 if version >= 700 " Vim 7.x specific colors
-  hi CursorLine     guifg=NONE        guibg=#222222     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
-  hi CursorColumn   guifg=NONE        guibg=#222222     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
-  hi ColorColumn    guifg=NONE        guibg=#222222     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
+  hi CursorLine     guifg=NONE        guibg=#222222     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+  hi CursorColumn   guifg=NONE        guibg=#222222     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+  hi ColorColumn    guifg=NONE        guibg=#222222     gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
   hi MatchParen     guifg=#f6f3e8     guibg=#857b6f     gui=BOLD      ctermfg=white       ctermbg=darkgray    cterm=NONE
   hi Pmenu          guifg=#f6f3e8     guibg=#444444     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi PmenuSel       guifg=#000000     guibg=#cae682     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
@@ -126,7 +126,7 @@ hi Statement        guifg=#6699CC     guibg=NONE        gui=NONE      ctermfg=li
 
 hi Special          guifg=#E18964     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 hi Delimiter        guifg=#00A0A0     guibg=NONE        gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
-hi Operator         guifg=white       guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
+hi Operator         guifg=#FFFFFF     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 
 hi link Character       Constant
 hi link Boolean         Constant

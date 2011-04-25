@@ -12,6 +12,9 @@ if has("gui_running")
 
   " Start without the toolbar
   set guioptions-=T
+  set guioptions-=r
+  set guioptions-=L
+  set guioptions-=b
 
   set guifont=Monaco:h11
  endif

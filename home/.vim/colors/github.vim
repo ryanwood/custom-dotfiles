@@ -24,7 +24,7 @@ hi Normal       guifg=#000000 guibg=#F8F8FF
 
 " {{{ Cursor
 hi Cursor		guibg=#444454 guifg=#F8F8FF
-hi CursorLine	guibg=#EEEEEE
+hi CursorLine	guibg=#F4F4F4
 hi CursorColumn	guibg=#E8E8EE
 hi ColorColumn  guibg=#ECECEC
 " }}}
@@ -55,7 +55,7 @@ hi StatusLineNC guibg=#d4d4d4 guifg=#404040 gui=italic
 hi ModeMsg		guifg=#990000
 hi MoreMsg		guifg=#990000
 
-hi Title		guifg=#ef5939
+hi Title		guifg=#000000
 hi WarningMsg	guifg=#ef5939
 hi SpecialKey   guifg=#177F80 gui=italic
 
@@ -75,12 +75,12 @@ hi Search		guibg=#cdcdfd guifg=#000000 gui=italic
 hi Ignore		guifg=#808080
 hi Identifier	guifg=#0086B3
 hi PreProc		guifg=#A0A0A0 gui=bold
-hi Comment		guifg=#999988
+hi Comment		guifg=#999988 gui=italic
 hi Constant		guifg=#177F80 gui=none
 hi String		guifg=#D81745
 hi Function		guifg=#990000 gui=bold
 hi Statement	guifg=#000000 gui=bold
-hi Type			guifg=#445588 gui=bold
+hi Type			guifg=#121289 gui=bold
 hi Number		guifg=#1C9898
 hi Todo			guifg=#FFFFFF guibg=#990000 gui=bold
 hi Special		guifg=#159828 gui=bold
@@ -113,9 +113,10 @@ hi spellLocal   guisp=#729fcf
 hi link cppSTL          Function
 hi link cppSTLType      Type
 hi link Character		Number
-hi link htmlTag			htmlEndTag
-"hi link htmlTagName     htmlTag
-hi link htmlLink		Underlined
+hi link htmlTag			Type
+hi link htmlEndTag      htmlTag
+hi link htmlTagName     htmlTag
+hi link htmlLink		Normal
 hi link pythonFunction	Identifier
 hi link Question		Type
 hi link CursorIM		Cursor

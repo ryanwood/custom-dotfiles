@@ -24,8 +24,9 @@ hi Normal       guifg=#000000 guibg=#F8F8FF
 
 " {{{ Cursor
 hi Cursor		guibg=#444454 guifg=#F8F8FF
-hi CursorLine	guibg=#D8D8DD
+hi CursorLine	guibg=#EEEEEE
 hi CursorColumn	guibg=#E8E8EE
+hi ColorColumn  guibg=#ECECEC
 " }}}
 
 " {{{ Diff
@@ -46,7 +47,7 @@ hi Folded		guifg=#808080 guibg=#ECECEC gui=bold
 hi FoldeColumn  guifg=#808080 guibg=#ECECEC gui=bold
 
 hi VertSplit	guibg=#bbbbbb guifg=#bbbbbb gui=none
-hi StatusLine   guibg=#bbbbbb guifg=#404040 gui=bold
+hi StatusLine   guibg=#ECECEC guifg=#404040 gui=bold
 hi StatusLineNC guibg=#d4d4d4 guifg=#404040 gui=italic
 " }}}
 

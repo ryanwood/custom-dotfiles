@@ -8,9 +8,12 @@ if &t_Co < 88 || !has('gui')
   let g:CSApprox_verbose_level=0
 endif
 
-colorscheme ir_black
+colorscheme solarized
+set background=light
 set colorcolumn=+1
-set cursorline
+if has('cursorline')
+  set cursorline
+endif
 
 " fold method
 set foldmethod=marker

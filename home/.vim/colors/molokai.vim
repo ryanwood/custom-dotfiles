@@ -111,6 +111,7 @@ if s:molokai_original == 1
    hi Comment         guifg=#75715E
    hi CursorLine                    guibg=#3E3D32
    hi CursorColumn                  guibg=#3E3D32
+   hi ColorColumn                   guibg=#3B3A32
    hi LineNr          guifg=#BCBCBC guibg=#3B3A32
    hi NonText         guifg=#BCBCBC guibg=#3B3A32
 else
@@ -118,7 +119,21 @@ else
    hi Comment         guifg=#465457
    hi CursorLine                    guibg=#293739
    hi CursorColumn                  guibg=#293739
+   hi ColorColumn                   guibg=#232526
    hi LineNr          guifg=#BCBCBC guibg=#232526
    hi NonText         guifg=#BCBCBC guibg=#232526
 end
 
+hi link cssTextProp   Type
+hi link cssBoxProp    Type
+hi link cssColorProp  Type
+hi link cssFontProp   Type
+hi link cssGeneratedContentProp Type
+hi link cssPagingProp Type
+hi link cssUIProp     Type
+hi link cssRenderAttr Type
+hi link cssAuralProp  Type
+hi link cssTableProp  Type
+
+hi link sassId     Function
+hi link SassIdChar sassId

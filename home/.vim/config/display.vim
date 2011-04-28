@@ -9,7 +9,7 @@ if &t_Co < 88 || !has('gui')
 endif
 
 colorscheme solarized
-set background=light
+set background=dark
 set colorcolumn=+1
 if has('cursorline')
   set cursorline

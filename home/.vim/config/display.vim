@@ -2,12 +2,6 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-" make csapprox stop whining in less capable VIMs
-if &t_Co < 88 || !has('gui')
-  let g:CSApprox_loaded=1
-  let g:CSApprox_verbose_level=0
-endif
-
 colorscheme solarized
 set background=dark
 set colorcolumn=+1

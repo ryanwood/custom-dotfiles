@@ -4,10 +4,10 @@
 
 colorscheme solarized
 set background=dark
-set colorcolumn=+1
-if has('cursorline')
-  set cursorline
+if exists('+colorcolumn')
+  set colorcolumn=+1
 endif
+set cursorline
 
 " fold method
 set foldmethod=marker

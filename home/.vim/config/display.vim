@@ -5,7 +5,7 @@
 colorscheme solarized
 set background=dark
 if exists('+colorcolumn')
-  set colorcolumn=+1
+  set colorcolumn=81
 endif
 set cursorline
 

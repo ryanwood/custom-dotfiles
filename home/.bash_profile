@@ -7,7 +7,7 @@ export PATH=":/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Colors
 export CLICOLOR='true'
-PS1="\[\033[0;33m\]\h \W λ \[\033[0m\]"
+PS1="\[\033[0;32m\]\h \W λ \[\033[0m\]"
 d=.dircolors
 test -r $d && eval "$(dircolors $d)"
 

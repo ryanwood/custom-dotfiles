@@ -16,8 +16,7 @@ if has("gui_running")
   set guioptions-=L
   set guioptions-=b
 
-  set guifont=Consolas:h12
-  set linespace=1
+  set guifont=Monaco:h11
 
   set background=light
  endif

@@ -20,5 +20,4 @@ if has("gui_running")
   set linespace=1
 
   set background=light
-  colorscheme solarized
  endif

@@ -2,7 +2,6 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:solarized_termtrans = 1
 colorscheme solarized
 set background=dark
 if exists('+colorcolumn')

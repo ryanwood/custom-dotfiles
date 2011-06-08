@@ -32,7 +32,7 @@
   ignore = dirty
 [submodule "home/.vim/bundle/rails"]
   path = home/.vim/bundle/rails
-  url = https://github.com/tpope/vim-rails.git
+  url = http://github.com/tpope/vim-rails.git
   ignore = dirty
 [submodule "home/.vim/bundle/rake"]
   path = home/.vim/bundle/rake
@@ -80,86 +80,86 @@
   ignore = dirty
 [submodule "home/.vim/bundle/vim-textobj-comment"]
   path = home/.vim/bundle/vim-textobj-comment
-  url = git://github.com/thinca/vim-textobj-comment.git
+  url = http://github.com/thinca/vim-textobj-comment.git
   ignore = dirty
 [submodule "home/.vim/bundle/asneeded"]
   path = home/.vim/bundle/asneeded
-  url = git://github.com/vim-scripts/AsNeeded.git
+  url = http://github.com/vim-scripts/AsNeeded.git
   ignore = dirty
 [submodule "home/.vim/bundle/bufexplorer"]
   path = home/.vim/bundle/bufexplorer
-  url = git://github.com/vim-scripts/bufexplorer.zip.git
+  url = http://github.com/vim-scripts/bufexplorer.zip.git
   ignore = dirty
 [submodule "home/.vim/bundle/camelcasemotion"]
   path = home/.vim/bundle/camelcasemotion
-  url = git://github.com/vim-scripts/camelcasemotion.git
+  url = http://github.com/vim-scripts/camelcasemotion.git
   ignore = dirty
 [submodule "home/.vim/bundle/dbext"]
   path = home/.vim/bundle/dbext
-  url = git://github.com/vim-scripts/dbext.vim.git
+  url = http://github.com/vim-scripts/dbext.vim.git
   ignore = dirty
 [submodule "home/.vim/bundle/gist"]
   path = home/.vim/bundle/gist
-  url = git://github.com/mattn/gist-vim.git
+  url = http://github.com/mattn/gist-vim.git
   ignore = dirty
 [submodule "home/.vim/bundle/tailminusf"]
   path = home/.vim/bundle/tailminusf
-  url = git://github.com/vim-scripts/TailMinusF.git
+  url = http://github.com/vim-scripts/TailMinusF.git
   ignore = dirty
 [submodule "home/.vim/bundle/yankring"]
   path = home/.vim/bundle/yankring
-  url = git://github.com/chrismetcalf/vim-yankring.git
+  url = http://github.com/chrismetcalf/vim-yankring.git
   ignore = dirty
 [submodule "home/.vim/bundle/vim-textobj-user"]
   path = home/.vim/bundle/vim-textobj-user
-  url = git://github.com/kana/vim-textobj-user.git
+  url = http://github.com/kana/vim-textobj-user.git
   ignore = dirty
 [submodule "home/.vim/bundle/vim-textobj-rubyblock"]
   path = home/.vim/bundle/vim-textobj-rubyblock
-  url = git://github.com/nelstrom/vim-textobj-rubyblock.git
+  url = http://github.com/nelstrom/vim-textobj-rubyblock.git
   ignore = dirty
 [submodule "home/.vim/bundle/csapprox"]
   path = home/.vim/bundle/csapprox
-  url = https://github.com/vim-scripts/CSApprox.git
+  url = http://github.com/vim-scripts/CSApprox.git
   ignore = dirty
 [submodule "home/.vim/bundle/css3"]
   path = home/.vim/bundle/css3
-  url = https://github.com/hail2u/vim-css3-syntax.git
+  url = http://github.com/hail2u/vim-css3-syntax.git
 [submodule "home/.vim/bundle/html5"]
   path = home/.vim/bundle/html5
-  url = https://github.com/othree/html5.vim.git
+  url = http://github.com/othree/html5.vim.git
 [submodule "home/.vim/bundle/javascript"]
   path = home/.vim/bundle/javascript
-  url = https://github.com/pangloss/vim-javascript.git
+  url = http://github.com/pangloss/vim-javascript.git
 [submodule "home/.vim/bundle/haml"]
   path = home/.vim/bundle/haml
-  url = https://github.com/tpope/vim-haml.git
+  url = http://github.com/tpope/vim-haml.git
 [submodule "home/.vim/bundle/gundo"]
   path = home/.vim/bundle/gundo
-  url = https://github.com/sjl/gundo.vim.git
+  url = http://github.com/sjl/gundo.vim.git
   ignore = dirty
 [submodule "home/.vim/bundle/ragtag"]
   path = home/.vim/bundle/ragtag
-  url = https://github.com/tpope/vim-ragtag.git
+  url = http://github.com/tpope/vim-ragtag.git
   ignore = dirty
 [submodule "home/.vim/bundle/jade"]
   path = home/.vim/bundle/jade
-  url = https://github.com/digitaltoad/vim-jade.git
+  url = http://github.com/digitaltoad/vim-jade.git
   ignore = dirty
 [submodule "home/.vim/bundle/stylus"]
   path = home/.vim/bundle/stylus
-  url = https://github.com/wavded/vim-stylus.git
+  url = http://github.com/wavded/vim-stylus.git
   ignore = dirty
 [submodule "home/.vim/bundle/tabular"]
   path = home/.vim/bundle/tabular
-  url = https://github.com/godlygeek/tabular.git
+  url = http://github.com/godlygeek/tabular.git
   ignore = dirty
 [submodule "home/.vim/bundle/slim"]
 	path = home/.vim/bundle/slim
-	url = https://github.com/bbommarito/vim-slim.git
+	url = http://github.com/bbommarito/vim-slim.git
 [submodule "home/.vim/bundle/solarized"]
 	path = home/.vim/bundle/solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
+	url = http://github.com/altercation/vim-colors-solarized.git
 [submodule "home/.vim/bundle/vividchalk"]
 	path = home/.vim/bundle/vividchalk
-	url = https://github.com/tpope/vim-vividchalk.git
+	url = http://github.com/tpope/vim-vividchalk.git

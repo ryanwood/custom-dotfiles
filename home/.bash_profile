@@ -7,7 +7,7 @@ export PATH=":/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Colors
 export CLICOLOR='true'
-PS1="\[\033[0;32m\]\h \W λ \[\033[0m\]"
+PS1='\r\n\[\033[0;35m\]\u@\H\[\033[0m\] in \[\033[34m\]\w\[\033[37m\]\r\n∴ \[\033[0m\]'
 d=.dircolors
 test -r $d && eval "$(dircolors $d)"
 

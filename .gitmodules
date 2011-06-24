@@ -163,3 +163,6 @@
 [submodule "home/.vim/bundle/vividchalk"]
 	path = home/.vim/bundle/vividchalk
 	url = http://github.com/tpope/vim-vividchalk.git
+[submodule "home/.vim/bundle/coffeescript"]
+	path = home/.vim/bundle/coffeescript
+	url = https://github.com/kchmck/vim-coffee-script.git

@@ -1,9 +1,9 @@
 export PATH=":/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Colors
-export CLICOLOR=1
-export LSCOLORS=gxfxcxdxbxegedabagacad
-alias ls='ls --color'
+export LS_OPTIONS="--color=auto"
+export CLICOLOR="Yes"
+export LSCOLORS="exfxfxfxcxdxdxhbadbxbx"
 
 # Prompt
 PS1='\r\n\[\033[0;35m\]\u@\H\[\033[0m\] in \[\033[34m\]\w\[\033[37m\]\r\n∴ \[\033[0m\]'

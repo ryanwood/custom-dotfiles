@@ -6,7 +6,7 @@ export CLICOLOR="Yes"
 export LSCOLORS="exfxfxfxcxdxdxhbadbxbx"
 
 # Prompt
-PS1='\n\[\033[0;35m\]\u@\H\[\033[0m\] in \[\033[34m\]\w\[\033[32m\]`__git_ps1` \n\[\033[37m\]∴ \[\033[0m\]'
+PS1='\n\[\033[0;35m\]\u@\H\[\033[0m\] in \[\033[34m\]\w\[\033[32m\]`__git_ps1` \n\[\033[0m\]∴ '
 
 # Drupal helpers
 export sam="sites/all/modules"

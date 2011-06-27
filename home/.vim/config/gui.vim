@@ -18,5 +18,5 @@ if has("gui_running")
 
   set guifont=Monaco:h11
 
-  set background=light
+  colorscheme monokai
  endif

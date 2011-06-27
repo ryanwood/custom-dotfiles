@@ -24,7 +24,7 @@ endif
 let colors_name = "cotingale"
 
 " General colors
-hi Normal               ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi Normal               ctermfg=255         ctermbg=233         cterm=NONE
 hi NonText              ctermfg=black       ctermbg=NONE        cterm=NONE
 
 hi Cursor               ctermfg=black       ctermbg=white       cterm=reverse
@@ -52,8 +52,9 @@ hi WarningMsg           ctermfg=NONE        ctermbg=172         cterm=NONE
 hi ModeMsg              ctermfg=darkgrey    ctermbg=235         cterm=NONE
 
 if version >= 700 " Vim 7.x specific colors
-  hi CursorLine         ctermfg=NONE        ctermbg=NONE        cterm=NONE
-  hi CursorColumn       ctermfg=NONE        ctermbg=NONE        cterm=BOLD
+  hi CursorLine         ctermfg=NONE        ctermbg=234         cterm=NONE
+  hi CursorColumn       ctermfg=NONE        ctermbg=NONE        cterm=NONE
+  hi ColorColumn        ctermfg=NONE        ctermbg=234         cterm=NONE
   hi TabLine            ctermfg=238         ctermbg=NONE        cterm=NONE
   hi TabLineFill        ctermfg=238         ctermbg=NONE        cterm=NONE
   hi TabLineSel         ctermfg=NONE        ctermbg=NONE        cterm=BOLD

@@ -2,8 +2,7 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme solarized
-set background=dark
+colorscheme cotingale
 if exists('+colorcolumn')
   set colorcolumn=81
 endif

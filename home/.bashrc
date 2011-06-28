@@ -33,3 +33,8 @@ alias gf="git-flow"
 # Load RVM function
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
+
+# Local machine-specific configuration
+if [ -f ~/.bashrc_local ]; then
+  . ~/.bashrc_local
+fi

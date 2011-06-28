@@ -2,7 +2,7 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme cotingale
+colorscheme monokai
 if exists('+colorcolumn')
   set colorcolumn=81
 endif

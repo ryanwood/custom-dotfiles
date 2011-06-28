@@ -24,7 +24,7 @@ endif
 let colors_name = "cotingale"
 
 " General colors
-hi Normal               ctermfg=255         ctermbg=233         cterm=NONE
+hi Normal               ctermfg=255         ctermbg=NONE         cterm=NONE
 hi NonText              ctermfg=black       ctermbg=NONE        cterm=NONE
 
 hi Cursor               ctermfg=black       ctermbg=white       cterm=reverse

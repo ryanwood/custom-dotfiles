@@ -157,4 +157,15 @@ hi link rubyClassVariable       White
 hi link rubyControl             Green
 hi link rubyGlobalVariable      White
 hi link rubyInstanceVariable    White
+" HTML
+hi link htmlTag         Normal
+hi link htmlTagName     Conditional
+hi link htmlEndTag      Normal
+hi link htmlLink        Normal
+hi link htmlArg         Green
+hi link htmlH1          Normal
+hi link htmlH2          Normal
+hi link htmlH3          Normal
+hi link htmlH5          Normal
+hi link htmlH6          Normal
 

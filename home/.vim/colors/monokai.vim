@@ -119,7 +119,7 @@ hi! link StorageClass Red
 "hi Structure
 "hi Typedef
 "
-hi! link Special      Grey
+hi! link Special      White
 "hi SpecialChar
 hi! link Tag          Green
 "hi Delimiter

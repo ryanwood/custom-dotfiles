@@ -168,4 +168,17 @@ hi link htmlH2          Normal
 hi link htmlH3          Normal
 hi link htmlH5          Normal
 hi link htmlH6          Normal
-
+" CSS/SASS
+hi link cssTagName                  Yellow
+hi link sassVariable                Green
+hi link sassFunction                Red
+hi link sassMixing                  Red
+hi link sassMixin                   Red
+hi link sassExtend                  Red
+hi link sassFor                     Red
+hi link sassInterpolationDelimiter  Magenta
+hi link sassAmpersand               Character
+hi link sassId                      Identifier
+hi link sassClass                   Type
+hi link sassIdChar                  sassId
+hi link sassClassChar               sassClass

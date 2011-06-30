@@ -2,7 +2,6 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-set t_Co=16
 colorscheme monokai
 
 if exists('+colorcolumn')

@@ -166,3 +166,9 @@
 [submodule "home/.vim/bundle/coffeescript"]
 	path = home/.vim/bundle/coffeescript
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "home/.vim/bundle/monokai"]
+	path = home/.vim/bundle/monokai
+	url = https://github.com/rickharris/vim-monokai.git
+[submodule "home/.vim/bundle/blackboard"]
+	path = home/.vim/bundle/blackboard
+	url = https://github.com/rickharris/vim-blackboard.git

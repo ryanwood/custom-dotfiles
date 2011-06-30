@@ -157,6 +157,9 @@ hi link rubyClassVariable       White
 hi link rubyControl             Green
 hi link rubyGlobalVariable      White
 hi link rubyInstanceVariable    White
+hi link rubyDefine              Red
+hi link rubyRailsFilterMethod   Blue
+hi link rubyRailsRenderMethod   Blue
 " HTML
 hi link htmlTag         Normal
 hi link htmlTagName     Conditional

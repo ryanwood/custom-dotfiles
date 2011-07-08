@@ -172,3 +172,6 @@
 [submodule "home/.vim/bundle/blackboard"]
 	path = home/.vim/bundle/blackboard
 	url = https://github.com/rickharris/vim-blackboard.git
+[submodule "home/.vim/bundle/jst"]
+	path = home/.vim/bundle/jst
+	url = https://github.com/briancollins/vim-jst.git

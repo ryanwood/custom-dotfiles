@@ -2,7 +2,7 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme blackboard
+colorscheme monokai
 
 if exists('+colorcolumn')
   set colorcolumn=81

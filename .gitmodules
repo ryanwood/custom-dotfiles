@@ -180,4 +180,4 @@
 	url = https://github.com/vim-scripts/SyntaxAttr.vim.git
 [submodule "home/.vim/bundle/railscasts"]
 	path = home/.vim/bundle/railscasts
-	url = git@github.com:rickharris/vim-railscasts.git
+	url = https://github.com/rickharris/vim-railscasts.git

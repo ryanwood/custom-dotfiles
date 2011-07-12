@@ -65,7 +65,7 @@ if version >= 700 " Vim 7.x specific colors
 endif
 
 " Syntax highlighting
-hi Comment              ctermfg=11          ctermbg=NONE        cterm=NONE
+hi Comment              ctermfg=13          ctermbg=NONE        cterm=NONE
 hi String               ctermfg=2           ctermbg=NONE        cterm=NONE
 hi Number               ctermfg=2           ctermbg=NONE        cterm=NONE
 
@@ -85,7 +85,9 @@ hi Delimiter            ctermfg=7         ctermbg=NONE        cterm=NONE
 hi Operator             ctermfg=9         ctermbg=NONE        cterm=NONE
 
 hi Blue    ctermfg=4  cterm=none
-hi Green   ctermfg=10 cterm=none
+hi LightBlue ctermfg=12 cterm=none
+hi Green   ctermfg=2  cterm=none
+hi DarkGreen ctermfg=10 cterm=none
 hi Grey    ctermfg=13 cterm=none
 hi Orange  ctermfg=9  cterm=none
 hi Red     ctermfg=1  cterm=none
@@ -123,45 +125,92 @@ hi link rubyConditional             Orange     " if
 hi link rubyInclude                 Orange     " include
 hi link rubyKeyword                 Orange     " super, return
 hi link rubyConstant                Normal     " Mongoid::Document
-hi link rubyInterpolationDelimiter  Green      " #{}
+hi link rubyInterpolationDelimiter  DarkGreen  " #{}
 hi link rubyRailsUserClass          White      " SomethingsController
 hi link rubyRailsFilterMethod       Red        " before_filter
 hi link rubyRailsRenderMethod       Red        " respond_to
 hi link rubyRailsARClassMethod      Red        " attr_accessible
 hi link rubyRailsARValidationMethod Normal     " validates
 
-" Special for XML
-hi link xmlTagName      Keyword
-hi link xmlTag          Identifier
-hi link xmlEndTag       Identifier
-
 "" Special for HTML
-hi link htmlTagName        Blue
-hi link htmlSpecialTagName Blue
-hi link htmlTag            Blue
-hi link htmlEndTag         Blue
-hi link htmlArg            Green
+hi link htmlTagName        Gold
+hi link htmlSpecialTagName Gold
+hi link htmlTag            Gold
+hi link htmlEndTag         Gold
+hi link htmlArg            Gold
 hi link htmlLink           Normal
 hi link javaScript         Normal
 
+"" Special for PHP
+hi link phpVarSelector  Purple
+hi link phpIdentifier   Purple
+hi link phpType         Red
+hi link phpRepeat       Orange
+
+"" Special for Coffeescript
+hi link coffeeAssignSymbols White
+hi link coffeeSpecialVar    Purple
+hi link coffeeObjAssign     Gold
+
 "" Special for Javascript
-hi link javaScriptNumber         Number
-hi link javaScriptPrototype      Identifier " prototype
-hi link javaScriptSource         Keyword " import export
-hi link javaScriptType           Identifier " const this undefined var void yield 
-hi link javaScriptOperator       Keyword " delete new in instanceof let typeof
-hi link javaScriptBoolean        Keyword " true false
-hi link javaScriptNull           Keyword " null
-hi link javaScriptConditional    Keyword " if else
-hi link javaScriptRepeat         Keyword " do while for
-hi link javaScriptBranch         Keyword " break continue switch case default return
-hi link javaScriptStatement      Keyword " try catch throw with finally
-hi link javaScriptGlobalObjects  Keyword " Array Boolean Date Function Infinity JavaArray JavaClass JavaObject JavaPackage Math Number NaN Object Packages RegExp String Undefined java netscape sun
-hi shCommandSub		ctermfg=white
+"hi link javaScriptNumber         Number
+"hi link javaScriptPrototype      Identifier " prototype
+"hi link javaScriptSource         Keyword " import export
+"hi link javaScriptType           Identifier " const this undefined var void yield 
+"hi link javaScriptOperator       Keyword " delete new in instanceof let typeof
+"hi link javaScriptBoolean        Keyword " true false
+"hi link javaScriptNull           Keyword " null
+"hi link javaScriptConditional    Keyword " if else
+"hi link javaScriptRepeat         Keyword " do while for
+"hi link javaScriptBranch         Keyword " break continue switch case default return
+"hi link javaScriptStatement      Keyword " try catch throw with finally
+"hi link javaScriptGlobalObjects  Keyword " Array Boolean Date Function Infinity JavaArray JavaClass JavaObject JavaPackage Math Number NaN Object Packages RegExp String Undefined java netscape sun
+"hi shCommandSub		ctermfg=white
 
 "" Sepcial for CSS
-hi link cssType            Green
-hi link cssIdentifier      Gold
-hi link cssClassName       Gold
-hi link cssTagName         Gold
-hi link cssBraces          Normal
+hi link cssType                 Green
+hi link cssIdentifier           Gold
+hi link cssClassName            Blue
+hi link cssTagName              Orange
+hi link cssBraces               Normal
+hi link cssColor                DarkGreen
+hi link cssCommonAttr           Green
+hi link cssTextAttr             Green
+hi link cssFontAttr             Green
+hi link cssBoxAttr              Green
+hi link cssRenderAttr           Green
+hi link cssUIAttr               Green
+hi link cssPseudoClass          Orange
+hi link cssPseudoClassId        Orange
+hi link cssSelectorOp           Normal
+hi link cssSelectorOp2          Normal
+hi link cssMedia                Orange
+hi link cssMediaType            Green
+hi link cssBraces               White
+hi link cssFontProp             White
+hi link cssColorProp            White
+hi link cssTextProp             White
+hi link cssBoxProp              White
+hi link cssRenderProp           White
+hi link cssAuralProp            White
+hi link cssRenderProp           White
+hi link cssGeneratedContentProp White
+hi link cssPagingProp           White
+hi link cssTableProp            White
+hi link cssUIProp               White
+hi link cssFontDescriptorProp   White
+
+"" Special for SASS
+hi link sassVariable                Purple
+hi link sassFunction                Red
+hi link sassMixing                  Red
+hi link sassMixin                   Red
+hi link sassExtend                  Red
+hi link sassFor                     Red
+hi link sassInterpolationDelimiter  DarkGreen
+hi link sassAmpersand               Normal
+hi link sassId                      cssIdentifier
+hi link sassClass                   cssClassName
+hi link sassIdChar                  sassId
+hi link sassClassChar               sassClass
+hi link sassInclude                 Orange

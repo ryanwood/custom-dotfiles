@@ -1,4 +1,4 @@
-export PATH=":/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/sbin:$PATH"
 
 # Colors
 export LS_OPTIONS="--color=auto"
@@ -29,10 +29,6 @@ export GIT_EDITOR=$EDITOR
 
 # Gitflow shortcut
 alias gf="git-flow"
-
-# Load RVM function
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 
 # Load NVM
 if [ -f ~/.nvm/nvm.sh ]; then

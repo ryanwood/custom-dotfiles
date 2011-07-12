@@ -175,3 +175,6 @@
 [submodule "home/.vim/bundle/jst"]
 	path = home/.vim/bundle/jst
 	url = https://github.com/briancollins/vim-jst.git
+[submodule "home/.vim/bundle/syntax-attr"]
+	path = home/.vim/bundle/syntax-attr
+	url = https://github.com/vim-scripts/SyntaxAttr.vim.git

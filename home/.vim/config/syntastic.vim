@@ -16,4 +16,4 @@ let g:syntastic_quiet_warnings=0
 
 " Shows really stupid stuff as errors (esp in HTML5)
 " so, we're turning it off
-let g:syntastic_disabled_filetypes = ['html', 'cucumber', 'coffee', 'sass']
+let g:syntastic_disabled_filetypes = ['html', 'cucumber', 'sass']

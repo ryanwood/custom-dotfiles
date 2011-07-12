@@ -3,10 +3,10 @@ export PATH=":/usr/local/bin:/usr/local/sbin:$PATH"
 # Colors
 export LS_OPTIONS="--color=auto"
 export CLICOLOR="Yes"
-export LSCOLORS="exfxfxfxcxdxdxhbadbxbx"
+export LSCOLORS="exgxfxfxcxdxdxhbadbxbx"
 
 # Prompt
-PS1='\n\[\033[0;35m\]\u@\H\[\033[0m\] in \[\033[34m\]\w\[\033[32m\]`__git_ps1` \n\[\033[0m\]∴ '
+PS1='\n\[\033[0;33m\]\u@\H\[\033[0m\] in \[\033[34m\]\w\[\033[32m\]`__git_ps1` \n\[\033[0m\]∴ '
 
 # Drupal helpers
 export sam="sites/all/modules"

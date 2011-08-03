@@ -67,8 +67,8 @@
   url = git://github.com/Townk/vim-autoclose.git
   ignore = dirty
 [submodule "home/.vim/bundle/align"]
-  path = home/.vim/bundle/align
-  url = git://github.com/vim-scripts/Align.vim.git
+	path = home/.vim/bundle/align
+	url = git://github.com/tsaleh/vim-align.git
   ignore = dirty
 [submodule "home/.vim/bundle/ack"]
   path = home/.vim/bundle/ack

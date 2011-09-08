@@ -3,7 +3,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 colorscheme solarized
-set bg=dark
+set bg=light
 
 " Coffeescript '@' variables marked as "Special" by default, which means they
 " are a super in your face red color. Let's treat them like ruby instance

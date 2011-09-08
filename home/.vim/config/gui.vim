@@ -16,9 +16,7 @@ if has("gui_running")
   set guioptions-=L
   set guioptions-=b
 
-  set guifont=Monaco:h12
-
-  " Solarized light
-  set bg=light
+  set guifont=Menlo:h12
+  set linespace=2
 
  endif

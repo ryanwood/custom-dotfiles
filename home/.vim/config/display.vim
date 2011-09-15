@@ -3,12 +3,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 colorscheme solarized
-set bg=light
-
-" Coffeescript '@' variables marked as "Special" by default, which means they
-" are a super in your face red color. Let's treat them like ruby instance
-" variables, which are considered identifiers
-hi link coffeeSpecialVar Identifier
+set bg=dark
 
 if exists('+colorcolumn')
   set colorcolumn=81

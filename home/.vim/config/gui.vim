@@ -13,7 +13,7 @@ if has("gui_running")
   set guioptions-=L
   set guioptions-=b
 
-  set guifont=Consolas:h12
-  set linespace=1
+  set guifont=Ubuntu\ Mono:h15
+  set linespace=2
 
  endif

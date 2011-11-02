@@ -3,20 +3,18 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 colorscheme solarized
-set bg=dark
 
 if exists('+colorcolumn')
   set colorcolumn=81
 endif
-set cursorline
 
 " fold method
 set foldmethod=marker
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
-set ruler          " display coordinates in status bar
-set showcmd        " display unfinished commands
+"set ruler          " display coordinates in status bar
+"set showcmd        " display unfinished commands
 set showmode       " display the current mode in the status bar
 set title          " show file in titlebar
 

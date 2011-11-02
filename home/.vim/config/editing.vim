@@ -69,6 +69,3 @@ augroup END
 
 " JSON filetype
 autocmd BufRead *.json set filetype=javascript
-
-" CSSTidy
-autocmd filetype css setlocal equalprg=csstidy\ -\ --silent=true 

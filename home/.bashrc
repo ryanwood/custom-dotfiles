@@ -1,5 +1,3 @@
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/sbin:$PATH"
-
 # Colors
 export LS_OPTIONS="--color=auto"
 export CLICOLOR="Yes"

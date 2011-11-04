@@ -166,21 +166,12 @@
 [submodule "home/.vim/bundle/coffeescript"]
 	path = home/.vim/bundle/coffeescript
 	url = git://github.com/kchmck/vim-coffee-script.git
-[submodule "home/.vim/bundle/monokai"]
-	path = home/.vim/bundle/monokai
-	url = git://github.com/rickharris/vim-monokai.git
-[submodule "home/.vim/bundle/blackboard"]
-	path = home/.vim/bundle/blackboard
-	url = git://github.com/rickharris/vim-blackboard.git
 [submodule "home/.vim/bundle/jst"]
 	path = home/.vim/bundle/jst
 	url = git://github.com/briancollins/vim-jst.git
 [submodule "home/.vim/bundle/syntax-attr"]
 	path = home/.vim/bundle/syntax-attr
 	url = git://github.com/vim-scripts/SyntaxAttr.vim.git
-[submodule "home/.vim/bundle/railscasts"]
-	path = home/.vim/bundle/railscasts
-	url = git://github.com/rickharris/vim-railscasts.git
 [submodule "home/.vim/bundle/preview"]
 	path = home/.vim/bundle/preview
 	url = https://github.com/greyblake/vim-preview.git

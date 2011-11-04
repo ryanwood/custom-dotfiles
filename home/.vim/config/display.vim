@@ -3,6 +3,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 colorscheme solarized
+set bg=dark
 
 if exists('+colorcolumn')
   set colorcolumn=81

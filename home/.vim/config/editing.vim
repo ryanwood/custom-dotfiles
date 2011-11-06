@@ -67,5 +67,14 @@ augroup module
   autocmd BufRead,BufNewFile *.test set filetype=php
 augroup END
 
-" JSON filetype
-autocmd BufRead *.json set filetype=javascript
+" Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
+au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru}    set ft=ruby
+
+" md, markdown, and mk are markdown and define buffer-local preview
+au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
+
+" add json syntax highlighting
+au BufNewFile,BufRead *.json set ft=javascript
+
+" Wrapping for text files
+au BufRead,BufNewFile *.txt call s:setupWrapping()

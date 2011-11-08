@@ -28,11 +28,6 @@ export GIT_EDITOR=$EDITOR
 # Gitflow shortcut
 alias gf="git-flow"
 
-# Load NVM
-if [ -f ~/.nvm/nvm.sh ]; then
-  . ~/.nvm/nvm.sh
-fi
-
 # Local machine-specific configuration
 if [ -f ~/.bashrc_local ]; then
   . ~/.bashrc_local

@@ -2,7 +2,7 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme Tomorrow-Night
+colorscheme Monokai
 
 if exists('+colorcolumn')
   set colorcolumn=81

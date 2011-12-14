@@ -1,3 +1,6 @@
+# /usr/local/bin has priority in PATH
+export PATH="/usr/local/bin:$PATH"
+
 # Colors
 export LS_OPTIONS="--color=auto"
 export CLICOLOR="Yes"

@@ -2,7 +2,7 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme railscasts
+colorscheme Tomorrow-Night
 
 if exists('+colorcolumn')
   set colorcolumn=81

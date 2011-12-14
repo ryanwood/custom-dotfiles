@@ -192,3 +192,6 @@
 [submodule "home/.vim/bundle/railscasts"]
 	path = home/.vim/bundle/railscasts
 	url = https://github.com/rickharris/vim-railscasts.git
+[submodule "home/.vim/bundle/tomorrow"]
+	path = home/.vim/bundle/tomorrow
+	url = https://github.com/ChrisKempson/Vim-Tomorrow-Theme.git

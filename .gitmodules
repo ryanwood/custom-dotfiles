@@ -189,3 +189,6 @@
 	path = home/.vim/bundle/tComment
 	url = https://github.com/vim-scripts/tComment.git
   ignore = dirty
+[submodule "home/.vim/bundle/railscasts"]
+	path = home/.vim/bundle/railscasts
+	url = https://github.com/rickharris/vim-railscasts.git

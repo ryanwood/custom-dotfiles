@@ -2,7 +2,7 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme Monokai
+colorscheme railscasts
 
 if exists('+colorcolumn')
   set colorcolumn=81

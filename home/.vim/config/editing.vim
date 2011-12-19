@@ -30,6 +30,16 @@ set autoread     " automatically reload a file if it's changed outside vim
 " wrap settings
 set nowrap       " wrap lines rather than use horiz. scrolling
 
+" dynamic cursor shape
+" Line for insert, block for everything else
+if exists('$TMUX')
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+else
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
+
 " format settings
 " t - Auto-wrap text using textwidth
 " c - Auto-wrap comments using textwidth, inserting the current comment

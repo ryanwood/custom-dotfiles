@@ -198,3 +198,6 @@
 [submodule "home/.vim/bundle/monokai"]
 	path = home/.vim/bundle/monokai
 	url = https://github.com/rickharris/vim-monokai.git
+[submodule "home/.vim/bundle/molokai"]
+	path = home/.vim/bundle/molokai
+	url = https://github.com/vim-scripts/molokai.git

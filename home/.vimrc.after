@@ -1,0 +1,2 @@
+" load everything else in its own config file
+runtime! config/**/*

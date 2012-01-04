@@ -3,7 +3,7 @@
 """"""""""""""""""""""""""""""""""""""""
 
 " keybindings
-nnoremap <Leader>u :GundoToggle<CR>
+nnoremap <Leader>gu :GundoToggle<CR>
 
 let g:gundo_width=30
 

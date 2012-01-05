@@ -5,3 +5,6 @@ call janus#disable_plugin('tagbar')
 
 " use ; for <Leader>
 let mapleader = ";"
+
+" Make the yankring file hidden
+let g:yankring_history_file = '.yankring'

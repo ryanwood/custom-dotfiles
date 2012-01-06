@@ -1,2 +1,58 @@
-" load everything else in its own config file
-runtime! config/**/*
+" ;w saves a buffer
+map <Leader>w :w!<CR>
+map <Leader>q :q<CR>
+
+" navigate among windows using ;[hjkl]
+" map <Leader>h <C-W>h
+" map <Leader>j <C-W>j
+" map <Leader>k <C-W>k
+" map <Leader>l <C-W>l
+
+" use C-j and C-k to 'bubble' lines (see
+" http://vimcasts.org/episodes/bubbling-text/)
+map <C-j> ddp
+map <C-k> ddkP
+
+" dynamic cursor shape
+" Line for insert, block for everything else
+if exists('$TMUX')
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+else
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+"" loads display-related option (colorscheme, etc.)
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+
+colorscheme railscasts
+
+if exists('+colorcolumn')
+  set colorcolumn=80
+endif
+
+" status bar
+set statusline=%<                                             " truncate@start
+set statusline+=%f\                                           " filename
+set statusline+=[%{strlen(&ft)?&ft:'none'}]                   " filetype
+set statusline+=%h%m%r%w                                      " flags
+set statusline+=%=                                            " right align
+set statusline+=%{fugitive#statusline()}                      " git status
+set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''} " rvm status
+set statusline+=(%l,%c%V)\ %<%P                               " offset
+
+" only execute the contents of this file if the GUI is in use.
+if has("gui_running")
+
+  " Start without the toolbar and scrollbars
+  set guioptions-=T
+  set guioptions-=r
+  set guioptions-=L
+  set guioptions-=b
+
+  set guifont=Monaco:h13
+ endif
+

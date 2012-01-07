@@ -1,6 +1,8 @@
 call janus#disable_plugin('ack')
+call janus#disable_plugin('buffergator')
 call janus#disable_plugin('command-t')
 call janus#disable_plugin('nerdcommenter')
+call janus#disable_plugin('css-color')
 call janus#disable_plugin('tagbar')
 
 " use ; for <Leader>

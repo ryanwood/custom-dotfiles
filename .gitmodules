@@ -23,3 +23,7 @@
 	path = home/.janus/yankring
 	url = https://github.com/vim-scripts/YankRing.vim.git
 	ignore = dirty
+[submodule "home/.janus/bufexplorer"]
+	path = home/.janus/bufexplorer
+	url = https://github.com/thisivan/vim-bufexplorer.git
+	ignore = dirty

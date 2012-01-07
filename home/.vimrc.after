@@ -54,5 +54,11 @@ if has("gui_running")
   set guioptions-=b
 
   set guifont=Monaco:h13
- endif
+endif
 
+
+""""""""""""""""""""""""""""""""""""""""
+"" DetectIndent-specific settings.
+""""""""""""""""""""""""""""""""""""""""
+
+autocmd BufReadPost * :DetectIndent

@@ -27,3 +27,7 @@
 	path = home/.janus/bufexplorer
 	url = https://github.com/thisivan/vim-bufexplorer.git
 	ignore = dirty
+[submodule "home/.janus/detectindent"]
+	path = home/.janus/detectindent
+	url = https://github.com/ciaranm/detectindent.git
+	ignore = dirty

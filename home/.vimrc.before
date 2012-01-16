@@ -1,8 +1,9 @@
 call janus#disable_plugin('ack')
 call janus#disable_plugin('buffergator')
 call janus#disable_plugin('command-t')
-call janus#disable_plugin('nerdcommenter')
 call janus#disable_plugin('css-color')
+call janus#disable_plugin('nerdcommenter')
+call janus#disable_plugin('sampler-pack')
 call janus#disable_plugin('tagbar')
 
 " use ; for <Leader>
@@ -69,3 +70,19 @@ let g:yankring_history_file = '.yankring'
 
 " use <Leader>y to open the YankRing window
 :nnoremap <silent> <Leader>y :YRShow<CR>
+
+
+""""""""""""""""""""""""""""""""""""""""
+"" tComment configuration
+""""""""""""""""""""""""""""""""""""""""
+
+let g:tcommentBlankLines=0
+
+
+""""""""""""""""""""""""""""""""""""""""
+"" DetectIndent-specific settings.
+""""""""""""""""""""""""""""""""""""""""
+
+autocmd BufReadPost * :DetectIndent
+let g:detectindent_preferred_expandtab = 1
+let g:detectindent_preferred_indent = 2

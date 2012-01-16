@@ -31,3 +31,7 @@
 	path = home/.janus/detectindent
 	url = https://github.com/ciaranm/detectindent.git
 	ignore = dirty
+[submodule "home/.vim"]
+	path = home/.vim
+	url = https://github.com/carlhuda/janus.git
+	ignore = dirty

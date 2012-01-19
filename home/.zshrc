@@ -29,14 +29,11 @@ ZSH_THEME="rickharris"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(bundler cake cap cloudapp gem git git-flow github heroku osx pow powder rails3 vi-mode)
+plugins=(bundler cake cap cloudapp gem git git-flow github heroku osx pow powder ssh-agent rails3 vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-
-# OMZ ssh-agent forwarding. Adds compatibility for screen/tmux
-zstyle :omz:plugins:ssh-agent agent-forwarding on
 
 # /usr/local/bin has priority in PATH
 export PATH="/usr/local/bin:$PATH"

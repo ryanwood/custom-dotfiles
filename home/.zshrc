@@ -35,6 +35,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# OMZ ssh-agent forwarding. Adds compatibility for screen/tmux
+zstyle :omz:plugins:ssh-agent agent-forwarding on
+
 # /usr/local/bin has priority in PATH
 export PATH="/usr/local/bin:$PATH"
 

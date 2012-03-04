@@ -35,3 +35,6 @@
 	path = home/.vim
 	url = https://github.com/carlhuda/janus.git
 	ignore = dirty
+[submodule "home/.janus/tomorrow-night"]
+	path = home/.janus/tomorrow-night
+	url = https://github.com/chriskempson/Vim-Tomorrow-Theme.git

@@ -38,3 +38,6 @@
 [submodule "home/.janus/tomorrow-night"]
 	path = home/.janus/tomorrow-night
 	url = https://github.com/chriskempson/Vim-Tomorrow-Theme.git
+[submodule "home/.oh-my-zsh"]
+	path = home/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git

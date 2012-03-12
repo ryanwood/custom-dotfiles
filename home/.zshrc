@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="rickharris"
+# ZSH_THEME="robbyrussell"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -34,6 +34,16 @@ plugins=(bundler cake cap cloudapp gem git git-flow github heroku osx pow powder
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+# Custom theme. No need to get it into oh-my-zsh core
+PROMPT=$'%{$fg[yellow]%}%n@%m%{$reset_color%} in %{$fg[blue]%}%~%{$reset_color%} $(git_prompt_info)\
+%{$reset_color%}∴ '
+
+ZSH_THEME_GIT_PROMPT_PREFIX="on %{$fg[green]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}!"
+ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[red]%}?"
+ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 # /usr/local/bin has priority in PATH
 export PATH="/usr/local/bin:$PATH"

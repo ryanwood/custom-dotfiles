@@ -27,3 +27,22 @@ Arpeggio nnoremap fd $
 
 " Use last two fingers on left hand to <esc>
 Arpeggio imap jk <ESC>
+
+" Some helpers to edit mode
+" http://vimcasts.org/e/14
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+map <leader>ew :e %%
+map <leader>es :sp %%
+map <leader>ev :vsp %%
+map <leader>et :tabe %%
+
+" Toggle paste with <leader>sp
+nmap <leader>sp :set paste! paste?<CR>
+
+" Bubble single lines
+nmap <C-k> [e
+nmap <C-j> ]e
+
+" Bubble multiple lines
+vmap <C-k> [egv
+vmap <C-j> ]egv

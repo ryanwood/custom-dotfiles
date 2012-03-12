@@ -1,7 +1,12 @@
-# dotfiles for rickharris
+# rickharris' dotfiles
 
-## VIM\_CONFIG
+My dotfiles, set up to use [Homesick](https://github.com/technicalpickles/homesick).
 
-Thanks to [duwanis](https://github.com/duwanis/vim_config) for this
-ultra-organized, homesick-enabled, pathogen-centric base for my dotfiles. The
-details of this setup can be read about in the README in his repo.
+## To install:
+
+```bash
+gem install homesick
+homesick clone https://github.com/rickharris/dotfiles.git
+homesick pull dotfiles
+homesick symlink dotfiles
+```

@@ -146,3 +146,9 @@
 	path = home/.vim/bundle/vim-ruby-vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
 	ignore = dirty
+[submodule "home/.vim/bundle/vim-scripts-php.vim-enhanced"]
+	path = home/.vim/bundle/vim-scripts-php.vim-enhanced
+	url = https://github.com/vim-scripts/php.vim-html-enhanced.git
+[submodule "home/.vim/bundle/vim-scripts-php.vim--Garvin"]
+	path = home/.vim/bundle/vim-scripts-php.vim--Garvin
+	url = https://github.com/vim-scripts/php.vim--Garvin.git

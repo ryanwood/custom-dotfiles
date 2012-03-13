@@ -152,3 +152,7 @@
 [submodule "home/.vim/bundle/vim-scripts-php.vim--Garvin"]
 	path = home/.vim/bundle/vim-scripts-php.vim--Garvin
 	url = https://github.com/vim-scripts/php.vim--Garvin.git
+[submodule "home/.vim/bundle/thisivan-vim-bufexplorer"]
+	path = home/.vim/bundle/thisivan-vim-bufexplorer
+	url = https://github.com/thisivan/vim-bufexplorer.git
+	ignore = dirty

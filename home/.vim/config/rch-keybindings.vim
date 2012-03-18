@@ -22,11 +22,11 @@ call arpeggio#load()
 
 " Use the two first fingers on both sides of the keyboard
 " simultaneously to go to the beginning or end of line
-Arpeggio nnoremap as 0
-Arpeggio nnoremap fd $
+Arpeggio nnoremap jk $
+Arpeggio nnoremap fd ^
 
 " Use last two fingers on left hand to <esc>
-Arpeggio imap jk <ESC>
+Arpeggio imap fj <ESC>
 
 " Some helpers to edit mode
 " http://vimcasts.org/e/14

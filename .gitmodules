@@ -74,10 +74,6 @@
 	path = home/.vim/bundle/skwp-vim-indexed-search
 	url = https://github.com/skwp/vim-indexed-search.git
 	ignore = dirty
-[submodule "home/.vim/bundle/Lokaltog-vim-powerline"]
-	path = home/.vim/bundle/Lokaltog-vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
-	ignore = dirty
 [submodule "home/.vim/bundle/tomtom-tcomment_vim"]
 	path = home/.vim/bundle/tomtom-tcomment_vim
 	url = https://github.com/tomtom/tcomment_vim.git
@@ -156,3 +152,6 @@
 	path = home/.vim/bundle/thisivan-vim-bufexplorer
 	url = https://github.com/thisivan/vim-bufexplorer.git
 	ignore = dirty
+[submodule "home/.vim/bundle/skwp-vim-powerline"]
+	path = home/.vim/bundle/skwp-vim-powerline
+	url = https://github.com/skwp/vim-powerline.git

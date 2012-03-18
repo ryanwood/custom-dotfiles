@@ -79,3 +79,5 @@ function reload_ssh_sock() {
 if [ -f ~/.zshrc_local ]; then
   . ~/.zshrc_local
 fi
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

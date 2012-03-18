@@ -155,3 +155,6 @@
 [submodule "home/.vim/bundle/skwp-vim-powerline"]
 	path = home/.vim/bundle/skwp-vim-powerline
 	url = https://github.com/skwp/vim-powerline.git
+[submodule "home/.vim/bundle/tpope-vim-rvm"]
+	path = home/.vim/bundle/tpope-vim-rvm
+	url = https://github.com/tpope/vim-rvm.git

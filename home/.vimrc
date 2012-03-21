@@ -87,6 +87,8 @@ set laststatus=2
 
 set incsearch        "Find the next match as we type the search
 set hlsearch         "Hilight searches by default
+set ignorecase
+set smartcase
 set viminfo='100,f1  "Save up to 100 marks, enable capital marks
 
 " ================ Turn Off Swap Files ==============

@@ -26,7 +26,7 @@ Arpeggio nnoremap jk $
 Arpeggio nnoremap fd ^
 
 " Use last two fingers on left hand to <esc>
-Arpeggio imap fj <ESC>
+imap <C-j> <ESC>
 
 " Some helpers to edit mode
 " http://vimcasts.org/e/14

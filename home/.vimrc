@@ -54,6 +54,7 @@ Bundle 'vim-scripts/php.vim-html-enhanced'
 Bundle 'vim-scripts/php.vim--Garvin'
 Bundle 'thisivan/vim-bufexplorer'
 Bundle 'skwp/vim-powerline'
+Bundle 'rson/vim-conque'
 
 filetype plugin indent on     " required!
 
@@ -141,6 +142,4 @@ set sidescroll=1
 
 " ================ Config ========================
 
-for f in split(glob('~/.vim/config/*.vim'), '\n')
-  exe 'source' f
-endfor
+runtime! config/**/*

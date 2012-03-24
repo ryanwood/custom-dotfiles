@@ -6,5 +6,5 @@ if has("gui_running")
   set guioptions-=L
   set guioptions-=b
 
-  set guifont=Inconsolata-dz\ for\ Powerline:h16,Monaco:h15
+  set guifont=Inconsolata-dz:h16
 endif

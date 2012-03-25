@@ -55,6 +55,7 @@ Bundle 'vim-scripts/php.vim--Garvin'
 Bundle 'thisivan/vim-bufexplorer'
 Bundle 'skwp/vim-powerline'
 Bundle 'rson/vim-conque'
+Bundle 'michaeljsmith/vim-indent-object'
 
 filetype plugin indent on     " required!
 

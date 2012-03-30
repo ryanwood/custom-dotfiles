@@ -56,6 +56,8 @@ Bundle 'thisivan/vim-bufexplorer'
 Bundle 'skwp/vim-powerline'
 Bundle 'rson/vim-conque'
 Bundle 'michaeljsmith/vim-indent-object'
+Bundle 'duff/vim-bufonly'
+Bundle 'rickharris/vim-railscasts'
 
 filetype plugin indent on     " required!
 

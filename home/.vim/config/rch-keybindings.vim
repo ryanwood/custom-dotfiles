@@ -25,9 +25,11 @@ call arpeggio#load()
 Arpeggio nnoremap jk $
 Arpeggio nnoremap fd ^
 
-" Use last two fingers on left hand to <esc>
+" Let's remap that escape key
 imap <ESC> <nop>
-imap <C-j> <C-c>
+imap ;e <C-c>
+vmap <ESC> <nop>
+vmap ;e <C-c>
 
 " Some helpers to edit mode
 " http://vimcasts.org/e/14

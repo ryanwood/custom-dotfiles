@@ -25,12 +25,6 @@ call arpeggio#load()
 Arpeggio nnoremap jk $
 Arpeggio nnoremap fd ^
 
-" Let's remap that escape key
-imap <ESC> <nop>
-imap ;e <C-c>
-vmap <ESC> <nop>
-vmap ;e <C-c>
-
 " Some helpers to edit mode
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>

@@ -3,63 +3,10 @@
 set nocompatible
 filetype off
 
-" =============== Vundle Initialization ==============
+" ================ Pathogen Initialization ===========
 " This loads all the plugins in ~/.vim/bundle
-" Use tpope's pathogen plugin to manage all other plugins
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
-
-Bundle 'tpope/vim-pathogen'
-Bundle 'chrismetcalf/vim-yankring'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'godlygeek/tabular'
-Bundle 'tpope/vim-fugitive'
-Bundle 'int3/vim-extradite'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'kien/ctrlp.vim'
-Bundle 'mattn/gist-vim'
-Bundle 'mikefarmer/snipmate.vim'
-Bundle 'scrooloose/snipmate-snippets'
-Bundle 'mileszs/ack.vim'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'kana/vim-smartinput'
-Bundle 'scrooloose/syntastic'
-Bundle 'sjl/gundo.vim'
-Bundle 'skwp/greplace.vim'
-Bundle 'skwp/vim-indexed-search'
-Bundle 'tomtom/tcomment_vim'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-git'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-rvm'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'vim-scripts/ZoomWin'
-Bundle 'vim-scripts/matchit.zip'
-Bundle 'vim-scripts/sudo.vim'
-Bundle 'ciaranm/detectindent'
-Bundle 'kana/vim-arpeggio'
-Bundle 'chrisbra/NrrwRgn'
-Bundle 'pangloss/vim-javascript'
-Bundle 'tpope/vim-markdown'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'vim-scripts/php.vim-html-enhanced'
-Bundle 'vim-scripts/php.vim--Garvin'
-Bundle 'thisivan/vim-bufexplorer'
-Bundle 'skwp/vim-powerline'
-Bundle 'rson/vim-conque'
-Bundle 'michaeljsmith/vim-indent-object'
-Bundle 'duff/vim-bufonly'
-Bundle 'rickharris/vim-railscasts'
-
-filetype plugin indent on     " required!
+call pathogen#infect()
 
 " ================ General Config ====================
 

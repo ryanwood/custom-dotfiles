@@ -6,5 +6,5 @@ if has("gui_running")
   set guioptions-=L
   set guioptions-=b
 
-  set guifont=LetterGothicMono:h18
+  set guifont=LetterGothicMono\ Light:h18
 endif

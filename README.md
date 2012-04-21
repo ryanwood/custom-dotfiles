@@ -1,4 +1,4 @@
-# rickharris' dotfiles
+# ryanwood's dotfiles
 
 My dotfiles, set up to use [Homesick](https://github.com/technicalpickles/homesick).
 
